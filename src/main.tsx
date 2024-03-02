@@ -15,7 +15,9 @@ import { Guapcoinx } from "@thirdweb-dev/chains";
 export const activeChain = Guapcoinx;
 
 export const smartWalletConfig = smartWallet(localWallet(), {
+  chain: Guapcoinx,
   factoryAddress: "0x32A35267fFf9319bE3b07A75a0A6aC053d902745",
+  clientId: "48f5qXTVju3lwm55jV3tKzHIrzCWG7CTuZTIwNboEUnVtPo4uFdAUKweN9UvMWxOa_azf5ChbV_0KsOA8xPprg",
   gasless: true,
 });
 
