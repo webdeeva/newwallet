@@ -9,7 +9,7 @@ import {
 import "./styles/globals.css";
 import { Guapcoinx } from "@thirdweb-dev/chains";
 
-// This is the chain your dApp will work on.
+// This is the chain your dApp will work on.test
 // Change this to the chain your app is built for.
 // You can also import additional chains from `@thirdweb-dev/chains` and pass them directly.
 export const activeChain = Guapcoinx;
